@@ -106,4 +106,36 @@ p {
   padding: 3% 2%;
 }
 
+/* Call to action */
+#cta {
+  background-color: #ff4c68;
+  padding: 3% 15% 7%;
+  text-align: center;
+  color: #fff;
+}
+.cta-header{
+  font-weight: 900;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 5% 15% 2%;
+}
+
+.ftr-fab {
+  padding: 1.5rem 1% ;
+} 
+@media (max-width: 992px) {
+  .title-image {
+    position: static;
+    transform: none;
+    max-width: 80%;
+}
+  #title {
+    text-align: center;
+}
+}
+
 
